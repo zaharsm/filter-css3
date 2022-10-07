@@ -1,0 +1,43 @@
+/* ==========================================
+   FINAL.CSS
+   These are the final styles for the project.
+
+   Course:  CSS3 in 30 Days
+   Author:  Brad Hussey
+   Website: codecollege.ca
+   ========================================== */
+
+  .final-result img {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    
+  }
+
+  .final-result img:hover {
+    cursor: crosshair;
+  }
+
+   .final__grayscale {
+     filter: brightness(0.25);
+   }
+   .final__grayscale:hover {
+     filter: brightness(1);
+   }
+   .final__blur {
+     filter: saturate(8);
+   }
+   .final__blur:hover {
+     filter: saturate(2);
+   }
+   .final__invert {
+     filter: contrast(100%);
+   }
+   .final__invert:hover {
+     filter: contrast(200%);
+   }
+   .final__sepia {
+      filter: drop-shadow(8px 8px 10px yellow);;
+   }
+   .final__sepia:hover {
+     filter: drop-shadow(8px 8px 10px gray);;
+   }
